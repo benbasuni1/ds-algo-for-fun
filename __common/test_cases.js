@@ -6,9 +6,13 @@ const arrays = {
     console.log('Input: ', result);
     return result;
   }
+}
 
+const num = {
+  pos: (lower = 0, upper = 100) => Math.random() * (upper - lower) + lower
 }
 
 module.exports = {
-  arrays
+  arrays,
+  num
 }

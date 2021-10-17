@@ -35,9 +35,11 @@ require('colors');
       console.log(msg);
     },
 
+
     // 3. 2D Array
 
     // 4. Recursion/Backtracking
+    hit: x => { console.log(x.bgGreen) },
 
     // 5. Linked List
 
